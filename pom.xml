@@ -8,7 +8,7 @@
   <artifactId>edu-algo</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>EDUCATION: algorithms</name>
+  <name>EDU: algorithms</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
