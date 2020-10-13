@@ -1,10 +1,10 @@
 package dev.sb.edu.algo.trees;
 
-public class SimpleBinaryTree {
+public class BinarySearchTree {
 
     private final Node root;
 
-    public SimpleBinaryTree(int... values) {
+    public BinarySearchTree(int... values) {
         assert values != null && values.length > 0 : "invalid conditions";
 
         root = new Node(values[0]);

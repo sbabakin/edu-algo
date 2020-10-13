@@ -8,17 +8,17 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @TestMethodOrder(MethodOrderer.Alphanumeric.class)
-class SimpleBinaryTreeTest {
+class BinarySearchTreeTest {
 
     @Test
     void insert() {
-        SimpleBinaryTree tree = new SimpleBinaryTree(5, 7, 9);
+        BinarySearchTree tree = new BinarySearchTree(5, 7, 9);
         tree.insert(4);
     }
 
     @Test
     void contains() {
-        SimpleBinaryTree tree = new SimpleBinaryTree(5, 7, 9, 1, 2);
+        BinarySearchTree tree = new BinarySearchTree(5, 7, 9, 1, 2);
         assertTrue(tree.contains(5));
         assertTrue(tree.contains(7));
         assertTrue(tree.contains(9));
@@ -29,19 +29,19 @@ class SimpleBinaryTreeTest {
 
     @Test
     void printInOrder() {
-        SimpleBinaryTree tree = new SimpleBinaryTree(5, 7, 9, 1, 2);
+        BinarySearchTree tree = new BinarySearchTree(5, 7, 9, 1, 2);
         tree.printInOrder();
     }
 
     @Test
     void printPreOrder() {
-        SimpleBinaryTree tree = new SimpleBinaryTree(5, 7, 9, 1, 2);
+        BinarySearchTree tree = new BinarySearchTree(5, 7, 9, 1, 2);
         tree.printPreOrder();
     }
 
     @Test
     void printPostOrder() {
-        SimpleBinaryTree tree = new SimpleBinaryTree(5, 7, 9, 1, 2);
+        BinarySearchTree tree = new BinarySearchTree(5, 7, 9, 1, 2);
         tree.printPostOrder();
     }
 }
